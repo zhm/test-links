@@ -6,6 +6,7 @@
     <script>
     window.onload = function() {
       if (window.location.hash.length > 1) {
+        alert(window.location.hash.substring(1))
         window.location = window.location.hash.substring(1)
       }
     }
