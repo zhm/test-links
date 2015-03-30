@@ -7,7 +7,6 @@
     window.onload = function() {
       if (window.location.hash.length > 1) {
         document.getElementById('debug').innerHTML = window.location.hash;
-        alert(window.location.hash.substring(1))
         window.location = window.location.hash.substring(1)
       }
     }
