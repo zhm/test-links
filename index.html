@@ -4,8 +4,10 @@
     <title></title>
     <meta charset='utf-8'>
     <script>
-    if (window.location.hash.length > 1) {
-      window.location = window.location.hash.substring(1)
+    window.onload = function() {
+      if (window.location.hash.length > 1) {
+        window.location = window.location.hash.substring(1)
+      }
     }
     </script>
   </head>
