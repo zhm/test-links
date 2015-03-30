@@ -3,6 +3,11 @@
   <head>
     <title></title>
     <meta charset='utf-8'>
+    <script>
+    if (window.location.hash.length > 1) {
+      window.location = window.location.hash.substring(1)
+    }
+    </script>
   </head>
   <body>
   <a href="fulcrumapp://new-record?form_id=077da951-cbfb-4cee-ad2d-f65131d5fcfe&number_of_floors=3&approximate_sq_feet=2300&status=incomplete">New Record</a>
